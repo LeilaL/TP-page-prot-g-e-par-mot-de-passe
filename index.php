@@ -19,7 +19,19 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-      
+<p>Entrez le mot de passe pour accèder aux informations secrètes.</p>
+
+        <form action="secret.php" method="post">
+
+  <p>
+
+      <input type="password" name="mdp" />
+
+      <input type="submit" value="Valider" />
+
+  </p>
+
+  </form>
 
 
 
