@@ -1,1 +1,1 @@
-<p>Neil A. Armstrongn n'est pas allé sur la lune</p>
+<?php echo "Neil A. Armstrongn n'est pas allé sur la lune."; ?>
