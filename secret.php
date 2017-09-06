@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['mdp']) == 'kangourou' )
+if (isset($_POST['mdp']) AND $_POST['mdp'] == 'kangourou'   )
 
 {
 
@@ -12,7 +12,7 @@ else
 
 {
 
-    echo 'Mauvais mot de passe !';
+    echo 'Mauvais <em>mot de passe</em> !<br/> Pour réessayer <a href="index.php">clique</a>';
 
 }
 
